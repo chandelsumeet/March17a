@@ -1,0 +1,227 @@
+.color-black
+{
+    color: black;
+}
+
+.color-gray
+{
+    color: #A9A9A9;
+}
+.color-white
+{
+    color: #ffffff;
+}
+
+.bg-white
+{
+    background-color: #ffffff;
+}
+.bg-dark
+{
+    background-color: black;
+}
+
+
+
+
+.color-blue
+{
+    color: #6f97fc;
+}
+
+
+.bg-blue
+{
+    background-color: #6f97fc;
+}
+
+
+
+.f-w700
+{
+    font-weight: 700;
+}
+.f-s14
+{
+    font-size: 14px;
+}
+.f-s12
+{
+    font-size: 12px;
+}
+
+.f-s27
+{
+    font-size: 27px;
+}
+.bg-gray
+{
+    background-color: #e9ebf0;
+}
+.bg-grayl
+{
+    background-color:#f5faf6 ;
+}
+
+.fontfamily-open
+{
+    font-family: 'Open Sans', sans-serif;
+}
+.a-btn
+{
+    padding: 14px 20px;
+}
+.btn-pad
+{
+    padding: 0.5rem 0;
+
+}
+.gen-a
+{
+    text-decoration: none;
+    
+    border-radius: 4px;
+
+}
+
+.border-radius4
+{
+    border-radius: 4px;
+}
+
+.btn1-hover:hover
+{
+    background-color: #94b2ff;
+}
+.btn2-hover:hover
+{
+    background-color: #edf0f5;
+}
+
+.card1
+{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    row-gap: 1rem;
+    padding: 2rem;
+}
+.card2
+{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    row-gap: 1rem;
+    padding: 2rem;
+
+}
+.border1
+{
+    border-width: 1px;
+    border-style: solid;
+}
+.border-gray
+{
+border-color: #b3bab5;
+}
+
+.card-coll
+{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+column-gap: 0.5rem;
+row-gap: 1rem;
+
+}
+.box1
+{
+    box-shadow: 0px 0px 47px #b3bab5;
+}
+.card-hover:hover .color-black,.card-hover:hover .color-gray
+{
+    
+    color: #ffffff;
+}
+.card-hover:hover
+{
+    background-color: #6f97fc;
+}
+.a-grid
+{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    column-gap: 0.5rem;
+    justify-content: left;
+}
+.center
+{
+    display: grid;
+    align-content: center;
+}
+.card3
+{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    
+}
+.card3 img
+{
+    width: 376px;
+    height: 150px;
+margin: -4px 0;
+}
+.card3-text
+{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    row-gap: 1rem;
+    border-top: 0;
+    padding: 2rem;
+}
+.btn4-hover:hover .card3-a1
+{
+    text-decoration: underline;
+}
+
+.bg-img
+{
+    background-image: url("../images/img2.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.card3-padding
+{
+
+    padding: 2rem;
+}
+.t-c
+{
+    text-align: center;
+}
+.padd4
+{
+    padding: 3rem;
+}
+.card5
+{
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+    row-gap: 1rem;
+    opacity: 0.9;
+}
+.card6
+{
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    row-gap: 1rem;
+}
+.pad-hf
+{
+    padding: 1rem;
+}
+.head
+{
+    border-bottom: 1px solid #b3bab5;;
+}
+.foot
+{
+    border-top: 1px solid #b3bab5;;
+}
